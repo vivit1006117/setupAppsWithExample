@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hljs {
+    line-height: 20px;
+    border-left: 4px solid #05a5d1;
+    background-color: rgba(5,165,209,.05);
+    margin: 14px 14px;
+    padding: 1.25rem 1.5rem;
+    display: block;
+    overflow-x: auto;
+}
+
+code {
+
+}
+
+.container {
+    display: grid;
+}
+
+.text{
+    font-size: 300%;
+    text-align: center;
+    height: 44px;
+}
+
+header {
+    background: #2d2d2d;
+    padding: 50px 0;
+    color: #fdf3e7;
+    font-weight: 300;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.circle {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #0c5ad6;
+    margin: 20px 20px 0 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}

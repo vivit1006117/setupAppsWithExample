@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+    <TITLE>AOT v JIT</TITLE>
+    <link rel="stylesheet" href="generic.css">
+</HEAD>
+<BODY>
+<div class="container">
+    <table border="10px">
+        <tr>
+            <th>AOT</th>
+            <th>JIT</th>
+        </tr>
+        <tr>
+            <td>Ahead-of-time</td>
+            <td>Just-in-time</td>
+        </tr>
+        <tr>
+            <td>The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code.</td>
+            <td>The Angular Just-in-Time (JIT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code at run time, as part of bootstrapping. JIT compilation is the default when you run Angular's ng build and ng serve CLI commands, and is a good choice during development.</td>
+        </tr>
+        <tr>
+            <td>This is the best compilation mode for production environments, with decreased load time and increased performance.</td>
+            <td>JIT mode is strongly discouraged for production use because it results in large application payloads that hinder the bootstrap performance.</td>
+        </tr>
+    </table>
+</div>
+</BODY>
+</HTML>
