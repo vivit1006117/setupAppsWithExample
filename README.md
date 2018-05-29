@@ -1,1 +1,1 @@
-# setupAppsWithExample
+# Setup Apps With Example
