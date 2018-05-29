@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    background: #a9c1e5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+}
+
+header {
+    background: #0c5ad6;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.circle {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #0c5ad6;
+    margin: 20px 20px 0 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
